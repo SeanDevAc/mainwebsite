@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    background-color: white;
+    font-family: 'Golos Text', sans-serif;
+}
+
+.topnav ul{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.navbutton{
+    position: relative;
+}
+
+.navbutton:link{
+    text-decoration: none;
+    color:black;
+    transition: color 0.5s ease-in-out;
+}
+
+.navbutton:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.navbutton:hover{
+    text-decoration: none;
+    color:hotpink;
+    transition: color 0.5s ease-in-out;
+    animation: moveright 1s;
+    left: 20px;
+} 
+
+.navbutton:active{
+    text-decoration: none;
+    color:pink;
+}
+
+img{
+    width:20%;
+    height:auto;
+}
+
+.middlebox{
+    width:50%;
+    height:500px;
+    margin:auto;
+    background-color:pink;
+}
+
+footer{
+    padding-left: 10%;
+    padding-top: 2%;
+    font-size: small;
+}
+
+@keyframes moveright {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 20px;
+    }
+}
+
+@keyframe moveback {
+    0% {
+        left: 20px;
+    }
+    100% {
+        left: 0px;
+    }
+}
