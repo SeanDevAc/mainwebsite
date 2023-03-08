@@ -92,7 +92,7 @@ footer{
 
 @media only screen and (min-width: 900px) {
 
-    .navbutton:hover{
+    .navbutton:hover, .homebutton:hover{
         text-decoration: none;
         color:pink;
         transition: color 0.5s ease-in-out;
