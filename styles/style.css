@@ -20,11 +20,11 @@
     position: fixed;
 }
 
-.navbutton{
+.navbutton, .homebutton{
     position: relative;
 }
 
-.navbutton:link{
+.navbutton:link, .homebutton:link{
     text-decoration: none;
     color: black;
     transition: color 0.5s ease-in-out;
@@ -32,7 +32,7 @@
     left: 0px;
 }
 
-.navbutton:visited{
+.navbutton:visited, .homebutton:visited{
     text-decoration: none;
     color:black;
 }
@@ -121,6 +121,7 @@ footer{
         float:left;
         margin: 0;
         padding: 0;
+        border-bottom: 1px solid black;
     }
 
     .topnav ul li{
@@ -131,6 +132,7 @@ footer{
         text-align: center;
         padding: 1%;;
         text-decoration: none;
+        padding-bottom: 2%;
     }
 
     .navbutton:link{
@@ -146,7 +148,7 @@ footer{
         padding-top: 3%;
     }
 
-    #active{
+    .homebutton, #homebutton{
         display: none;
     }
 
@@ -165,6 +167,6 @@ footer{
     }
 
     .maintext{
-        padding-top: 20%;
+        padding-top: 25%;
     }
   }
