@@ -3,20 +3,23 @@
 *{
     margin:0;
     padding:0;
-    background-color: white;
     font-family: 'Golos Text', sans-serif;
 }
 
-.topnav{
-    z-index: -1;
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/background.jpg");
+    background-size: cover;
 }
 
-.topnav ul{
+nav ul{
     list-style-type: none;
     display: inline-block;
     text-decoration: none;
-    padding-left: 10%;
-    padding-top: 7.5%;
+    margin-left: 5%;
+    margin-top: 7.5%;
+    padding: 2%;
     position: fixed;
 }
 
@@ -37,6 +40,9 @@
     color:black;
 }
 
+h1{
+    color: black;
+}
 
 img{
     width:30%;
@@ -45,25 +51,6 @@ img{
 
 #active{
     color:pink;
-}
-
-.maintext{
-    padding-top: 5%;
-}
-
-.middlebox{
-    z-index: 1;
-    width:50%;
-    height:500px;
-    margin:auto;
-    background-color:pink;
-    position:relative;
-}
-
-.middlebox::after{
-    content: "";
-    display: block;
-    padding-bottom: 100%;
 }
 
 footer{
