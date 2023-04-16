@@ -140,10 +140,10 @@ header{
 .topnav{
     display: flex;
     position: fixed;
-    width: 100%;
+    width: 95%;
     height: auto;
-    left: 0px;
-    top: 0px;
+    left: 2.5%;
+    top: 1.25%;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
