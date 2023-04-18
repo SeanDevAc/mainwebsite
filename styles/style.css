@@ -62,9 +62,16 @@ h1{
 }
 
 .socialmedia{
-    padding-top: 5px;
-    height: 20px;
+    height: 25px;
+    padding: 5px;
     width: auto;
+    border: 2px white solid;
+    border-radius: 3px;
+}
+
+.socialmedia:hover{
+    border: 2px pink solid;
+    transition: border 0.5s ease-in-out;
 }
 
 footer {
