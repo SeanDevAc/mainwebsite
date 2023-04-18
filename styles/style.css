@@ -71,6 +71,7 @@ footer {
     margin-top: auto;
     padding-top: 10px;
     font-size: small;
+    font-style: italic;
 }
 
   /* buttons & text styling */
@@ -93,6 +94,15 @@ footer {
 
 h1{
     color: black;
+}
+
+P{
+    padding-bottom: 20px;
+}
+
+.email{
+    font-style: italic;
+    font-size: 15px;
 }
 
 #active{
