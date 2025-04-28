@@ -1,0 +1,50 @@
+:root{
+    --primary: #050505;
+    --text: white;
+    --texthover: #ffffff71;
+}
+
+* {
+    transition: all 150ms ease-in-out;
+}
+
+
+body{
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+a{
+    font-weight: light;
+}
+
+a:hover{
+    color: var(--texthover);
+    cursor: pointer;
+}
+
+.contact{
+  background: -webkit-linear-gradient(left, #5100ff, #ee00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mediaLogo {
+    width: 3vw;
+    height: auto;
+    min-width: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 0.2em;
+    fill: white;
+    margin: 0.2em;
+    transition: fill 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 50%; /* Zorgt voor een subtiele ronde look in hover */
+}
+
+.mediaLogo:hover {
+    fill: #5100ff;
+    background-color: white;
+    border-radius: 50%;
+    transform: scale(1.1); /* Zorgt voor een lichte zoom-in animatie bij hover */
+}
